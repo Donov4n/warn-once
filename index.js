@@ -8,19 +8,19 @@ var warningOnce = function() {};
 
 if (__DEV__) {
     var warned = {};
-    warningOnce = function(condition, format, args) {
-        if (format !== undefined && warned[format]) {
+    warningOnce = function(condition, message, vars) {
+        if (message !== undefined && warned[message]) {
             return;
         }
 
         var len = arguments.length;
 
-        args = new Array(len > 2 ? len - 2 : 0);
+        vars = new Array(len > 2 ? len - 2 : 0);
         for (var key = 2; key < len; key++) {
-            args[key - 2] = arguments[key];
+            vars[key - 2] = arguments[key];
         }
 
-        warning.apply(null, [condition, format].concat(args));
+        warning.apply(null, [condition, message].concat(vars));
         warned[message] = !condition;
     };
 }
