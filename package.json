@@ -6,7 +6,7 @@
     "license"     : "MIT",
     "repository"  : "Donov4n/warning-once",
     "author"      : "Donovan Lambert <d.lambert@cirize.com>",
-    "keywords"    : ["invariant", "varning", "react"],
+    "keywords"    : ["invariant", "warning", "react"],
     "main"        : "index.js",
     "scripts"     : {
         "test": "jest"
