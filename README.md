@@ -1,1 +1,1 @@
-# warn-once
+# warningOnce()
