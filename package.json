@@ -1,6 +1,6 @@
 {
     "name"        : "warning-once",
-    "version"     : "1.0.0",
+    "version"     : "1.0.1",
     "description" : "Like warning(), but warn only once for each error.",
     "homepage"    : "https://github.com/Donov4n/warning-once",
     "license"     : "MIT",
