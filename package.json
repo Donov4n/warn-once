@@ -5,7 +5,7 @@
     "homepage"    : "https://github.com/Donov4n/warning-once",
     "license"     : "MIT",
     "repository"  : "Donov4n/warning-once",
-    "author"      : "Donovan Lambert <d.lambert@cirize.com>",
+    "author"      : "Donovan Lambert <donovan@pulsanova.com>",
     "keywords"    : ["invariant", "warning", "react"],
     "main"        : "index.js",
     "scripts"     : {
