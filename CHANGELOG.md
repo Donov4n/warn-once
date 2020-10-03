@@ -1,4 +1,4 @@
-## 1.0.3 (unreleased)
+## 1.0.3 (2020-10-03)
 - Update dev dependencies. 
 
 ## 1.0.2 (2020-07-07)
