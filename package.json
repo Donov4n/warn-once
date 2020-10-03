@@ -1,11 +1,11 @@
 {
     "name"        : "warning-once",
-    "version"     : "1.0.2",
+    "version"     : "1.0.3",
     "description" : "Like warning(), but warn only once for each error.",
     "homepage"    : "https://github.com/Donov4n/warning-once",
     "license"     : "MIT",
     "repository"  : "Donov4n/warning-once",
-    "author"      : "Donovan Lambert <d.lambert@cirize.com>",
+    "author"      : "Donovan Lambert <donovan@pulsanova.com>",
     "keywords"    : ["invariant", "warning", "react"],
     "main"        : "index.js",
     "scripts"     : {
@@ -15,6 +15,6 @@
         "warning": "^4.0.3"
     },
     "devDependencies": {
-        "jest": "^26.1.0"
+        "jest": "^26.4.2"
     }
 }
